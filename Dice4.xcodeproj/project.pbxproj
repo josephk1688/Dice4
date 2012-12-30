@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA2725ED169085B30007E276 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2725EC169085B30007E276 /* UIKit.framework */; };
+		EA2725EF169085B30007E276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2725EE169085B30007E276 /* Foundation.framework */; };
+		EA2725F1169085B30007E276 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2725F0169085B30007E276 /* CoreGraphics.framework */; };
+		EA2725F7169085B30007E276 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA2725F5169085B30007E276 /* InfoPlist.strings */; };
+		EA2725F9169085B30007E276 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2725F8169085B30007E276 /* main.m */; };
+		EA2725FD169085B30007E276 /* JoeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2725FC169085B30007E276 /* JoeAppDelegate.m */; };
+		EA2725FF169085B30007E276 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2725FE169085B30007E276 /* Default.png */; };
+		EA272601169085B30007E276 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA272600169085B30007E276 /* Default@2x.png */; };
+		EA272603169085B30007E276 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA272602169085B30007E276 /* Default-568h@2x.png */; };
+		EA272606169085B30007E276 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA272604169085B30007E276 /* MainStoryboard.storyboard */; };
+		EA272609169085B30007E276 /* JoeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA272608169085B30007E276 /* JoeViewController.m */; };
+		EA272611169085B30007E276 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA272610169085B30007E276 /* SenTestingKit.framework */; };
+		EA272612169085B30007E276 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2725EC169085B30007E276 /* UIKit.framework */; };
+		EA272613169085B30007E276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2725EE169085B30007E276 /* Foundation.framework */; };
+		EA27261B169085B30007E276 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA272619169085B30007E276 /* InfoPlist.strings */; };
+		EA27261E169085B30007E276 /* Dice4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA27261D169085B30007E276 /* Dice4Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA272614169085B30007E276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA2725DF169085B30007E276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA2725E7169085B30007E276;
+			remoteInfo = Dice4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA2725E8169085B30007E276 /* Dice4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dice4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2725EC169085B30007E276 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA2725EE169085B30007E276 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA2725F0169085B30007E276 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA2725F4169085B30007E276 /* Dice4-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dice4-Info.plist"; sourceTree = "<group>"; };
+		EA2725F6169085B30007E276 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA2725F8169085B30007E276 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA2725FA169085B30007E276 /* Dice4-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dice4-Prefix.pch"; sourceTree = "<group>"; };
+		EA2725FB169085B30007E276 /* JoeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JoeAppDelegate.h; sourceTree = "<group>"; };
+		EA2725FC169085B30007E276 /* JoeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoeAppDelegate.m; sourceTree = "<group>"; };
+		EA2725FE169085B30007E276 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EA272600169085B30007E276 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EA272602169085B30007E276 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EA272605169085B30007E276 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		EA272607169085B30007E276 /* JoeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JoeViewController.h; sourceTree = "<group>"; };
+		EA272608169085B30007E276 /* JoeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoeViewController.m; sourceTree = "<group>"; };
+		EA27260F169085B30007E276 /* Dice4Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dice4Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA272610169085B30007E276 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EA272618169085B30007E276 /* Dice4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dice4Tests-Info.plist"; sourceTree = "<group>"; };
+		EA27261A169085B30007E276 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA27261C169085B30007E276 /* Dice4Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dice4Tests.h; sourceTree = "<group>"; };
+		EA27261D169085B30007E276 /* Dice4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dice4Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA2725E5169085B30007E276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2725ED169085B30007E276 /* UIKit.framework in Frameworks */,
+				EA2725EF169085B30007E276 /* Foundation.framework in Frameworks */,
+				EA2725F1169085B30007E276 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA27260B169085B30007E276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA272611169085B30007E276 /* SenTestingKit.framework in Frameworks */,
+				EA272612169085B30007E276 /* UIKit.framework in Frameworks */,
+				EA272613169085B30007E276 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA2725DD169085B30007E276 = {
+			isa = PBXGroup;
+			children = (
+				EA2725F2169085B30007E276 /* Dice4 */,
+				EA272616169085B30007E276 /* Dice4Tests */,
+				EA2725EB169085B30007E276 /* Frameworks */,
+				EA2725E9169085B30007E276 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA2725E9169085B30007E276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA2725E8169085B30007E276 /* Dice4.app */,
+				EA27260F169085B30007E276 /* Dice4Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA2725EB169085B30007E276 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA2725EC169085B30007E276 /* UIKit.framework */,
+				EA2725EE169085B30007E276 /* Foundation.framework */,
+				EA2725F0169085B30007E276 /* CoreGraphics.framework */,
+				EA272610169085B30007E276 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA2725F2169085B30007E276 /* Dice4 */ = {
+			isa = PBXGroup;
+			children = (
+				EA2725FB169085B30007E276 /* JoeAppDelegate.h */,
+				EA2725FC169085B30007E276 /* JoeAppDelegate.m */,
+				EA272604169085B30007E276 /* MainStoryboard.storyboard */,
+				EA272607169085B30007E276 /* JoeViewController.h */,
+				EA272608169085B30007E276 /* JoeViewController.m */,
+				EA2725F3169085B30007E276 /* Supporting Files */,
+			);
+			path = Dice4;
+			sourceTree = "<group>";
+		};
+		EA2725F3169085B30007E276 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA2725F4169085B30007E276 /* Dice4-Info.plist */,
+				EA2725F5169085B30007E276 /* InfoPlist.strings */,
+				EA2725F8169085B30007E276 /* main.m */,
+				EA2725FA169085B30007E276 /* Dice4-Prefix.pch */,
+				EA2725FE169085B30007E276 /* Default.png */,
+				EA272600169085B30007E276 /* Default@2x.png */,
+				EA272602169085B30007E276 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA272616169085B30007E276 /* Dice4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EA27261C169085B30007E276 /* Dice4Tests.h */,
+				EA27261D169085B30007E276 /* Dice4Tests.m */,
+				EA272617169085B30007E276 /* Supporting Files */,
+			);
+			path = Dice4Tests;
+			sourceTree = "<group>";
+		};
+		EA272617169085B30007E276 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA272618169085B30007E276 /* Dice4Tests-Info.plist */,
+				EA272619169085B30007E276 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA2725E7169085B30007E276 /* Dice4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA272621169085B30007E276 /* Build configuration list for PBXNativeTarget "Dice4" */;
+			buildPhases = (
+				EA2725E4169085B30007E276 /* Sources */,
+				EA2725E5169085B30007E276 /* Frameworks */,
+				EA2725E6169085B30007E276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dice4;
+			productName = Dice4;
+			productReference = EA2725E8169085B30007E276 /* Dice4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA27260E169085B30007E276 /* Dice4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA272624169085B30007E276 /* Build configuration list for PBXNativeTarget "Dice4Tests" */;
+			buildPhases = (
+				EA27260A169085B30007E276 /* Sources */,
+				EA27260B169085B30007E276 /* Frameworks */,
+				EA27260C169085B30007E276 /* Resources */,
+				EA27260D169085B30007E276 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA272615169085B30007E276 /* PBXTargetDependency */,
+			);
+			name = Dice4Tests;
+			productName = Dice4Tests;
+			productReference = EA27260F169085B30007E276 /* Dice4Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA2725DF169085B30007E276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Joe;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Joseph Kung";
+			};
+			buildConfigurationList = EA2725E2169085B30007E276 /* Build configuration list for PBXProject "Dice4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA2725DD169085B30007E276;
+			productRefGroup = EA2725E9169085B30007E276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA2725E7169085B30007E276 /* Dice4 */,
+				EA27260E169085B30007E276 /* Dice4Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA2725E6169085B30007E276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2725F7169085B30007E276 /* InfoPlist.strings in Resources */,
+				EA2725FF169085B30007E276 /* Default.png in Resources */,
+				EA272601169085B30007E276 /* Default@2x.png in Resources */,
+				EA272603169085B30007E276 /* Default-568h@2x.png in Resources */,
+				EA272606169085B30007E276 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA27260C169085B30007E276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA27261B169085B30007E276 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EA27260D169085B30007E276 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA2725E4169085B30007E276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2725F9169085B30007E276 /* main.m in Sources */,
+				EA2725FD169085B30007E276 /* JoeAppDelegate.m in Sources */,
+				EA272609169085B30007E276 /* JoeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA27260A169085B30007E276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA27261E169085B30007E276 /* Dice4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA272615169085B30007E276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA2725E7169085B30007E276 /* Dice4 */;
+			targetProxy = EA272614169085B30007E276 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA2725F5169085B30007E276 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2725F6169085B30007E276 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA272604169085B30007E276 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA272605169085B30007E276 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		EA272619169085B30007E276 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA27261A169085B30007E276 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA27261F169085B30007E276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA272620169085B30007E276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA272622169085B30007E276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dice4/Dice4-Prefix.pch";
+				INFOPLIST_FILE = "Dice4/Dice4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA272623169085B30007E276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dice4/Dice4-Prefix.pch";
+				INFOPLIST_FILE = "Dice4/Dice4-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EA272625169085B30007E276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dice4.app/Dice4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dice4/Dice4-Prefix.pch";
+				INFOPLIST_FILE = "Dice4Tests/Dice4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EA272626169085B30007E276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dice4.app/Dice4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dice4/Dice4-Prefix.pch";
+				INFOPLIST_FILE = "Dice4Tests/Dice4Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA2725E2169085B30007E276 /* Build configuration list for PBXProject "Dice4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA27261F169085B30007E276 /* Debug */,
+				EA272620169085B30007E276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA272621169085B30007E276 /* Build configuration list for PBXNativeTarget "Dice4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA272622169085B30007E276 /* Debug */,
+				EA272623169085B30007E276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA272624169085B30007E276 /* Build configuration list for PBXNativeTarget "Dice4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA272625169085B30007E276 /* Debug */,
+				EA272626169085B30007E276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA2725DF169085B30007E276 /* Project object */;
+}
